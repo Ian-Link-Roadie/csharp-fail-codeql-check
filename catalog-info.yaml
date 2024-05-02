@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: csharp-fail-codeql-check
+  title: csharp-fail-codeql-check
+  description: I hope I don't fail
+  annotations:
+    github.com/project-slug: roadie-demo/csharp-fail-codeql-check
+    backstage.io/techdocs-ref: dir:. 
+    
+    
+spec:
+  type: service
+  owner: group:default/pov
+  lifecycle: production
