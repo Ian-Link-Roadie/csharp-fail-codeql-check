@@ -1,3 +1,5 @@
+using System.Security.Cryptography;
+
 namespace TeleprompterConsole;
 
 public class Program

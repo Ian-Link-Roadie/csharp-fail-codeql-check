@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("csharp-console-teleprompter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c47ff7edf2917536932ed5fd6c7d208ca6489c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6eb80b642728667f562ed1abef36cbd5de25a6bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("csharp-console-teleprompter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("csharp-console-teleprompter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
