@@ -7,16 +7,22 @@ public class Program
         await RunTeleprompter();
     }
 
-    public static string giveSecretData (string randomNumber)
+    public static string[] giveSecretData (int randomNumber)
     {
-        if (randomNumber > Random().Next(1, 10))
+        var rando = new Random();
+
+        if (randomNumber > rando.Next(1, 10))
         {
             var creditCardNumber = "4000056655665556";
             var expDate = "0129";
             var cvc2 = "123";
             var billingAddress = "123 Easy St";
             var billingZip = "12345";
+
+            return [creditCardNumber, cvc2, billingAddress, billingZip, expDate ];
         }
+
+        return ["You", "picked", "wrong" ];
     }
 
     private static async Task RunTeleprompter()
