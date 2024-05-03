@@ -13,3 +13,6 @@ This sample demonstrates File I/O, async features, and terminal input and output
 To build and run the sample, type the following command:
 
 `dotnet run`
+
+## Vulnerability Options
+https://codeql.github.com/codeql-query-help/csharp/
